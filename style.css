@@ -5,7 +5,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff00;
+    background-color: #ffffff;
     color: #000000;
     margin: 0;
     padding: 20px;
@@ -24,4 +24,41 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+section:hover {
+    border-color : #8B4513;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8B4513;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666666;
 }
